@@ -1,0 +1,1725 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+      Build started 10/10/2026 5:47:26 PM.
+      
+      Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:01:12.52
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Project/uswah-app/build/windows/x64/CMakeFiles/4.3.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/flutter/bin/lld-link.com"
+      - "C:/flutter/bin/lld-link.exe"
+      - "C:/flutter/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/Developer/AppData/Roaming/nvm/lld-link.com"
+      - "C:/Users/Developer/AppData/Roaming/nvm/lld-link.exe"
+      - "C:/Users/Developer/AppData/Roaming/nvm/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/scrcpy/lld-link.com"
+      - "C:/scrcpy/lld-link.exe"
+      - "C:/scrcpy/lld-link"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/lld-link.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/lld-link.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/lld-link"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/lld-link.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/lld-link.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/lld-link"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/lld-link"
+      - "C:/Program Files/apache-maven-3.9.16/bin/lld-link.com"
+      - "C:/Program Files/apache-maven-3.9.16/bin/lld-link.exe"
+      - "C:/Program Files/apache-maven-3.9.16/bin/lld-link"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/lld-link"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/lld-link"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/lld-link"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/lld-link"
+      - "C:/flutter/bin/mingit/cmd/lld-link.com"
+      - "C:/flutter/bin/mingit/cmd/lld-link.exe"
+      - "C:/flutter/bin/mingit/cmd/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/flutter/bin/mt.com"
+      - "C:/flutter/bin/mt.exe"
+      - "C:/flutter/bin/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Users/Developer/AppData/Roaming/nvm/mt.com"
+      - "C:/Users/Developer/AppData/Roaming/nvm/mt.exe"
+      - "C:/Users/Developer/AppData/Roaming/nvm/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/mt.com"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/mt.exe"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/scrcpy/mt.com"
+      - "C:/scrcpy/mt.exe"
+      - "C:/scrcpy/mt"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/mt.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/mt.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/mt"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/mt.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/mt.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/mt"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/mt"
+      - "C:/Program Files/apache-maven-3.9.16/bin/mt.com"
+      - "C:/Program Files/apache-maven-3.9.16/bin/mt.exe"
+      - "C:/Program Files/apache-maven-3.9.16/bin/mt"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/mt.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/mt.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/mt"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/mt.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/mt.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/mt"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/mt.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/mt.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/mt"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/mt.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/mt.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/mt"
+      - "C:/flutter/bin/mingit/cmd/mt.com"
+      - "C:/flutter/bin/mingit/cmd/mt.exe"
+      - "C:/flutter/bin/mingit/cmd/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:596 (enable_language)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:569 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/uswah_app/bin/"
+      - "C:/Program Files/uswah_app/sbin/"
+      - "C:/Program Files/uswah_app/"
+    searched_directories:
+      - "C:/flutter/bin/rc.com"
+      - "C:/flutter/bin/rc.exe"
+      - "C:/flutter/bin/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Users/Developer/AppData/Roaming/nvm/rc.com"
+      - "C:/Users/Developer/AppData/Roaming/nvm/rc.exe"
+      - "C:/Users/Developer/AppData/Roaming/nvm/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/rc.com"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/rc.exe"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/scrcpy/rc.com"
+      - "C:/scrcpy/rc.exe"
+      - "C:/scrcpy/rc"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/rc.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/rc.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/rc"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/rc.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/rc.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/rc"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/rc.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/rc.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/rc"
+      - "C:/Program Files/apache-maven-3.9.16/bin/rc.com"
+      - "C:/Program Files/apache-maven-3.9.16/bin/rc.exe"
+      - "C:/Program Files/apache-maven-3.9.16/bin/rc"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/rc.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/rc.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/rc"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/rc.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/rc.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/rc"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/rc.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/rc.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/rc"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/rc.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/rc.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/rc"
+      - "C:/flutter/bin/mingit/cmd/rc.com"
+      - "C:/flutter/bin/mingit/cmd/rc.exe"
+      - "C:/flutter/bin/mingit/cmd/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
+      - "C:/Program Files/uswah_app/bin/rc.com"
+      - "C:/Program Files/uswah_app/bin/rc.exe"
+      - "C:/Program Files/uswah_app/bin/rc"
+      - "C:/Program Files/uswah_app/sbin/rc.com"
+      - "C:/Program Files/uswah_app/sbin/rc.exe"
+      - "C:/Program Files/uswah_app/sbin/rc"
+      - "C:/Program Files/uswah_app/rc.com"
+      - "C:/Program Files/uswah_app/rc.exe"
+      - "C:/Program Files/uswah_app/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/uswah_app"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/uswah_app"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-sit8df"
+      binary: "C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-sit8df"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-sit8df'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94302.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 10/10/2026 5:48:41 PM.
+        
+        Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-sit8df\\cmTC_94302.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-sit8df\\Debug\\".
+          Creating directory "cmTC_94302.dir\\Debug\\cmTC_94302.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_94302.dir\\Debug\\cmTC_94302.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_94302.dir\\Debug\\cmTC_94302.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_94302.dir\\Debug\\\\" /Fd"cmTC_94302.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_94302.dir\\Debug\\\\" /Fd"cmTC_94302.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-sit8df\\Debug\\cmTC_94302.exe" /INCREMENTAL /ILK:"cmTC_94302.dir\\Debug\\cmTC_94302.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-sit8df/Debug/cmTC_94302.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-sit8df/Debug/cmTC_94302.lib" /MACHINE:X64  /machine:x64 cmTC_94302.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_94302.vcxproj -> C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-sit8df\\Debug\\cmTC_94302.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_94302.dir\\Debug\\cmTC_94302.tlog\\unsuccessfulbuild".
+          Touching "cmTC_94302.dir\\Debug\\cmTC_94302.tlog\\cmTC_94302.lastbuildstate".
+        Done Building Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-sit8df\\cmTC_94302.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:06.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36257.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "flutter/ephemeral/.plugin_symlinks/geolocator_windows/windows/CMakeLists.txt:22 (find_program)"
+    mode: "program"
+    variable: "NUGET"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nuget"
+    candidate_directories:
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/uswah_app/bin/"
+      - "C:/Program Files/uswah_app/sbin/"
+      - "C:/Program Files/uswah_app/"
+    searched_directories:
+      - "C:/flutter/bin/nuget.com"
+      - "C:/flutter/bin/nuget.exe"
+      - "C:/flutter/bin/nuget"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/nuget.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/nuget.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/nuget"
+      - "C:/Windows/System32/nuget.com"
+      - "C:/Windows/System32/nuget.exe"
+      - "C:/Windows/System32/nuget"
+      - "C:/Windows/nuget.com"
+      - "C:/Windows/nuget.exe"
+      - "C:/Windows/nuget"
+      - "C:/Windows/System32/wbem/nuget.com"
+      - "C:/Windows/System32/wbem/nuget.exe"
+      - "C:/Windows/System32/wbem/nuget"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nuget.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nuget.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nuget"
+      - "C:/Windows/System32/OpenSSH/nuget.com"
+      - "C:/Windows/System32/OpenSSH/nuget.exe"
+      - "C:/Windows/System32/OpenSSH/nuget"
+      - "C:/Users/Developer/AppData/Roaming/nvm/nuget.com"
+      - "C:/Users/Developer/AppData/Roaming/nvm/nuget.exe"
+      - "C:/Users/Developer/AppData/Roaming/nvm/nuget"
+      - "C:/Program Files/nodejs/nuget.com"
+      - "C:/Program Files/nodejs/nuget.exe"
+      - "C:/Program Files/nodejs/nuget"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/nuget.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/nuget.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/nuget"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/nuget.com"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/nuget.exe"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/nuget"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nuget.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nuget.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/nuget"
+      - "C:/scrcpy/nuget.com"
+      - "C:/scrcpy/nuget.exe"
+      - "C:/scrcpy/nuget"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/nuget.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/nuget.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/nuget"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/nuget.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/nuget.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/nuget"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/nuget.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/nuget.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/nuget"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/nuget.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/nuget.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/nuget"
+      - "C:/Program Files/apache-maven-3.9.16/bin/nuget.com"
+      - "C:/Program Files/apache-maven-3.9.16/bin/nuget.exe"
+      - "C:/Program Files/apache-maven-3.9.16/bin/nuget"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/nuget.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/nuget.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/nuget"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/nuget.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/nuget.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/nuget"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/nuget.com"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/nuget.exe"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/nuget"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/nuget.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/nuget.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/nuget"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/nuget.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/nuget.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/nuget"
+      - "C:/flutter/bin/mingit/cmd/nuget.com"
+      - "C:/flutter/bin/mingit/cmd/nuget.exe"
+      - "C:/flutter/bin/mingit/cmd/nuget"
+      - "C:/Program Files/bin/nuget.com"
+      - "C:/Program Files/bin/nuget.exe"
+      - "C:/Program Files/bin/nuget"
+      - "C:/Program Files/sbin/nuget.com"
+      - "C:/Program Files/sbin/nuget.exe"
+      - "C:/Program Files/sbin/nuget"
+      - "C:/Program Files/nuget.com"
+      - "C:/Program Files/nuget.exe"
+      - "C:/Program Files/nuget"
+      - "C:/Program Files (x86)/bin/nuget.com"
+      - "C:/Program Files (x86)/bin/nuget.exe"
+      - "C:/Program Files (x86)/bin/nuget"
+      - "C:/Program Files (x86)/sbin/nuget.com"
+      - "C:/Program Files (x86)/sbin/nuget.exe"
+      - "C:/Program Files (x86)/sbin/nuget"
+      - "C:/Program Files (x86)/nuget.com"
+      - "C:/Program Files (x86)/nuget.exe"
+      - "C:/Program Files (x86)/nuget"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/nuget.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/nuget.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/nuget"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/nuget.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/nuget.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/nuget"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/nuget.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/nuget.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/nuget"
+      - "C:/Program Files/uswah_app/bin/nuget.com"
+      - "C:/Program Files/uswah_app/bin/nuget.exe"
+      - "C:/Program Files/uswah_app/bin/nuget"
+      - "C:/Program Files/uswah_app/sbin/nuget.com"
+      - "C:/Program Files/uswah_app/sbin/nuget.exe"
+      - "C:/Program Files/uswah_app/sbin/nuget"
+      - "C:/Program Files/uswah_app/nuget.com"
+      - "C:/Program Files/uswah_app/nuget.exe"
+      - "C:/Program Files/uswah_app/nuget"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/uswah_app"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/uswah_app"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/uswah_app"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/uswah_app"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+      Build started 10/10/2026 5:51:14 PM.
+      
+      Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:13.94
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Project/uswah-app/build/windows/x64/CMakeFiles/4.3.1-msvc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/uswah_app/bin/"
+      - "C:/Program Files/uswah_app/sbin/"
+      - "C:/Program Files/uswah_app/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/flutter/bin/lld-link.com"
+      - "C:/flutter/bin/lld-link.exe"
+      - "C:/flutter/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/Developer/AppData/Roaming/nvm/lld-link.com"
+      - "C:/Users/Developer/AppData/Roaming/nvm/lld-link.exe"
+      - "C:/Users/Developer/AppData/Roaming/nvm/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/scrcpy/lld-link.com"
+      - "C:/scrcpy/lld-link.exe"
+      - "C:/scrcpy/lld-link"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/lld-link.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/lld-link.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/lld-link"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/lld-link.com"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/lld-link.exe"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/lld-link"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/lld-link"
+      - "C:/Program Files/apache-maven-3.9.16/bin/lld-link.com"
+      - "C:/Program Files/apache-maven-3.9.16/bin/lld-link.exe"
+      - "C:/Program Files/apache-maven-3.9.16/bin/lld-link"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/lld-link"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/lld-link"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/lld-link"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/lld-link.com"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/lld-link.exe"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/lld-link"
+      - "C:/flutter/bin/mingit/cmd/lld-link.com"
+      - "C:/flutter/bin/mingit/cmd/lld-link.exe"
+      - "C:/flutter/bin/mingit/cmd/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lld-link"
+      - "C:/Program Files/uswah_app/bin/lld-link.com"
+      - "C:/Program Files/uswah_app/bin/lld-link.exe"
+      - "C:/Program Files/uswah_app/bin/lld-link"
+      - "C:/Program Files/uswah_app/sbin/lld-link.com"
+      - "C:/Program Files/uswah_app/sbin/lld-link.exe"
+      - "C:/Program Files/uswah_app/sbin/lld-link"
+      - "C:/Program Files/uswah_app/lld-link.com"
+      - "C:/Program Files/uswah_app/lld-link.exe"
+      - "C:/Program Files/uswah_app/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/uswah_app"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/uswah_app"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-9vsbnc"
+      binary: "C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-9vsbnc"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-9vsbnc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dba54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 10/10/2026 5:51:31 PM.
+        
+        Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-9vsbnc\\cmTC_dba54.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-9vsbnc\\Debug\\".
+          Creating directory "cmTC_dba54.dir\\Debug\\cmTC_dba54.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dba54.dir\\Debug\\cmTC_dba54.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dba54.dir\\Debug\\cmTC_dba54.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_dba54.dir\\Debug\\\\" /Fd"cmTC_dba54.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_dba54.dir\\Debug\\\\" /Fd"cmTC_dba54.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-9vsbnc\\Debug\\cmTC_dba54.exe" /INCREMENTAL /ILK:"cmTC_dba54.dir\\Debug\\cmTC_dba54.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-9vsbnc/Debug/cmTC_dba54.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-9vsbnc/Debug/cmTC_dba54.lib" /MACHINE:X64  /machine:x64 cmTC_dba54.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_dba54.vcxproj -> C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-9vsbnc\\Debug\\cmTC_dba54.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_dba54.dir\\Debug\\cmTC_dba54.tlog\\unsuccessfulbuild".
+          Touching "cmTC_dba54.dir\\Debug\\cmTC_dba54.tlog\\cmTC_dba54.lastbuildstate".
+        Done Building Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-9vsbnc\\cmTC_dba54.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:05.84
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:8 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36257.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindJNI.cmake:538 (find_library)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:24 (find_package)"
+    mode: "library"
+    variable: "JAVA_JVM_LIBRARY"
+    description: "Java Virtual Machine library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jvm"
+    candidate_directories:
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/uswah_app/lib/"
+      - "C:/Program Files/uswah_app/"
+      - "C:/Program Files/uswah_app/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "/bin/"
+      - "C:/Program Files/Java/jdk-21.0.12/lib/"
+      - "C:/Program Files/Java/jdk-21.0.12/lib/client/"
+      - "C:/Program Files/Java/jdk-21.0.12/lib/minimal/"
+      - "C:/Program Files/Java/jdk-21.0.12/lib/server/"
+      - "C:/Program Files/Java/jdk-21.0.12/lib/zero/"
+      - "C:/Program Files/Java/jdk-21.0.12/lib/j9vm/"
+      - "C:/Program Files/Java/jdk-21.0.12/lib/default/"
+      - "C:/Program Files/Java/jdk-17/lib/"
+      - "C:/Program Files/Java/jdk-17/lib/client/"
+      - "C:/Program Files/Java/jdk-17/lib/minimal/"
+      - "C:/Program Files/Java/jdk-17/lib/server/"
+      - "C:/Program Files/Java/jdk-17/lib/zero/"
+      - "C:/Program Files/Java/jdk-17/lib/j9vm/"
+      - "C:/Program Files/Java/jdk-17/lib/default/"
+    searched_directories:
+      - "C:/flutter/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Developer/AppData/Roaming/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Developer/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/scrcpy/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Asus/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Asus/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/bin/"
+      - "C:/Program Files/apache-maven-3.9.16/bin/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/"
+      - "C:/Users/Developer/AppData/Local/Author Software/nvm/.nodejs/"
+      - "C:/Users/Developer/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Developer/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Developer/AppData/Local/Programs/Git/cmd/"
+      - "C:/flutter/bin/mingit/cmd/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/lib/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/uswah_app/lib/"
+      - "C:/Program Files/uswah_app/"
+      - "C:/Program Files/uswah_app/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "/bin/"
+    found: "C:/Program Files/Java/jdk-21.0.12/lib/jvm.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:\\flutter\\bin\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Users\\Developer\\AppData\\Roaming\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\flutter\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\scrcpy"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Asus\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.2.3\\bin"
+        - "C:\\Program Files\\apache-maven-3.9.16\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm"
+        - "C:\\Users\\Developer\\AppData\\Local\\Author Software\\nvm\\\\.nodejs"
+        - "C:\\Users\\Developer\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Developer\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\flutter\\bin\\mingit\\cmd"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/uswah_app"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/uswah_app"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/uswah_app/bin"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin"
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckSourceCompiles.cmake:205 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindJNI.cmake:590 (check_source_compiles)"
+      - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:24 (find_package)"
+    directories:
+      source: "C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-jd3vu1"
+      binary: "C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-jd3vu1"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "JNI_INCLUDE_PATH2_OPTIONAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-jd3vu1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e437.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.10.1-1.26427.6+3cd27c13e for .NET Framework
+        Build started 10/10/2026 5:51:39 PM.
+        
+        Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-jd3vu1\\cmTC_6e437.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-jd3vu1\\Debug\\".
+          Creating directory "cmTC_6e437.dir\\Debug\\cmTC_6e437.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6e437.dir\\Debug\\cmTC_6e437.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6e437.dir\\Debug\\cmTC_6e437.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Project\\uswah-app\\windows\\flutter\\ephemeral\\.plugin_symlinks\\jni\\src\\..\\third_party" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6e437.dir\\Debug\\\\" /Fd"cmTC_6e437.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-jd3vu1\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Project\\uswah-app\\windows\\flutter\\ephemeral\\.plugin_symlinks\\jni\\src\\..\\third_party" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D JNI_INCLUDE_PATH2_OPTIONAL /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6e437.dir\\Debug\\\\" /Fd"cmTC_6e437.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-jd3vu1\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-jd3vu1\\Debug\\cmTC_6e437.exe" /INCREMENTAL /ILK:"cmTC_6e437.dir\\Debug\\cmTC_6e437.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-jd3vu1/Debug/cmTC_6e437.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Project/uswah-app/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-jd3vu1/Debug/cmTC_6e437.lib" /MACHINE:X64  /machine:x64 cmTC_6e437.dir\\Debug\\src.obj
+          cmTC_6e437.vcxproj -> C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-jd3vu1\\Debug\\cmTC_6e437.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6e437.dir\\Debug\\cmTC_6e437.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6e437.dir\\Debug\\cmTC_6e437.tlog\\cmTC_6e437.lastbuildstate".
+        Done Building Project "C:\\Project\\uswah-app\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-jd3vu1\\cmTC_6e437.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:07.06
+        
+      exitCode: 0
+...

@@ -1,5 +1,9 @@
-import 'package:geocoding/geocoding.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:geolocator/geolocator.dart';
+
+// geocoding tidak support web – import hanya di non-web
+import 'location_service_geocoding.dart'
+    if (dart.library.html) 'location_service_geocoding_web.dart';
 
 /// Hasil pengambilan lokasi realtime.
 class LocationResult {
@@ -19,8 +23,6 @@ class LocationResult {
 class LocationService {
   LocationService._();
 
-  static Geocoding? _geocoding;
-
   /// Ambil koordinat default: coba GPS device dulu, fallback ke Jakarta.
   static Future<({double latitude, double longitude})> getDefaultCoords() async {
     const jakarta = (latitude: -6.200000, longitude: 106.816666);
@@ -33,6 +35,7 @@ class LocationService {
 
   /// Ambil posisi realtime dari GPS. Mengembalikan `null` pada kegagalan.
   static Future<Position?> getCurrentPosition() async {
+    if (kIsWeb) return null;
     try {
       final bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
       if (!serviceEnabled) {
@@ -60,22 +63,7 @@ class LocationService {
     required double latitude,
     required double longitude,
   }) async {
-    try {
-      _geocoding ??= Geocoding();
-      final placemarks = await _geocoding!.placemarkFromCoordinates(
-        latitude,
-        longitude,
-      );
-      if (placemarks.isNotEmpty) {
-        final place = placemarks.first;
-        final city = place.locality ?? place.subAdministrativeArea;
-        if (city != null && city.isNotEmpty) {
-          return city;
-        }
-      }
-    } catch (_) {
-      // geocoding gagal, fallback ke default
-    }
-    return 'Jakarta';
+    if (kIsWeb) return 'Jakarta';
+    return geocodeCityName(latitude: latitude, longitude: longitude);
   }
 }

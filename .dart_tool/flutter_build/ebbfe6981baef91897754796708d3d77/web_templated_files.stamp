@@ -1,0 +1,1 @@
+{"inputs":["C:\\Project\\uswah-app\\web\\*\\index.html","C:\\Project\\uswah-app\\web\\flutter_bootstrap.js","C:\\flutter\\bin\\cache\\engine.stamp"],"outputs":["C:\\Project\\uswah-app\\build\\web\\*\\index.html","C:\\Project\\uswah-app\\build\\web\\flutter_bootstrap.js"],"buildKey":"[{\"compileTarget\":\"dart2js\",\"renderer\":\"canvaskit\",\"mainJsPath\":\"main.dart.js\"},{}]"}

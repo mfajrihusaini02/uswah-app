@@ -1,0 +1,15 @@
+# Target labels
+ nuget-populate
+# Source files and their labels
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/nuget-populate
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/c95847339f686baf8db50846d98a79a8/nuget-populate.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7f1b6120fa83ace384537806f3bb8821/nuget-populate-complete.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-build.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-configure.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-copyfile.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-download.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-install.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-mkdir.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-patch.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-test.rule
+C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-update.rule

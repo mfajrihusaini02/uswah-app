@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\c95847339f686baf8db50846d98a79a8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D36CDF9C-D29E-3288-ABFF-39A287D5B0D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

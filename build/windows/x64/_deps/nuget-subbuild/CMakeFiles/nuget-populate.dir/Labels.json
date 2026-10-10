@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/c95847339f686baf8db50846d98a79a8/nuget-populate.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7f1b6120fa83ace384537806f3bb8821/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-build.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-download.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-install.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-test.rule"
+		},
+		{
+			"file" : "C:/Project/uswah-app/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbe9f57d4fcb600692b44aa43b997a77/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

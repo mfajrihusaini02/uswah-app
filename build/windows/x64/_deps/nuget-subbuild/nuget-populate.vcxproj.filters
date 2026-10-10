@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-copyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\cbe9f57d4fcb600692b44aa43b997a77\nuget-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\7f1b6120fa83ace384537806f3bb8821\nuget-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\c95847339f686baf8db50846d98a79a8\nuget-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Project\uswah-app\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\nuget-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D36CDF9C-D29E-3288-ABFF-39A287D5B0D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

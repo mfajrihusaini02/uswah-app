@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Project\uswah-app\windows\flutter\ephemeral\.plugin_symlinks\flutter_timezone\windows\flutter_timezone_plugin_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Project\uswah-app\windows\flutter\ephemeral\.plugin_symlinks\flutter_timezone\windows\flutter_timezone_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Project\uswah-app\windows\flutter\ephemeral\.plugin_symlinks\flutter_timezone\windows\include\flutter_timezone\flutter_timezone_plugin_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Project\uswah-app\windows\flutter\ephemeral\.plugin_symlinks\flutter_timezone\windows\flutter_timezone_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Project\uswah-app\windows\flutter\ephemeral\.plugin_symlinks\flutter_timezone\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0CEC912D-F4E5-3C3C-BE3C-677E9928CD5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BDDE07C2-FB3C-3672-9D28-3750F4B8E90E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
