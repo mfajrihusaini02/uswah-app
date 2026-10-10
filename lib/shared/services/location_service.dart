@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:geolocator/geolocator.dart';
 
 // geocoding tidak support web – import hanya di non-web
@@ -35,7 +34,6 @@ class LocationService {
 
   /// Ambil posisi realtime dari GPS. Mengembalikan `null` pada kegagalan.
   static Future<Position?> getCurrentPosition() async {
-    if (kIsWeb) return null;
     try {
       final bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
       if (!serviceEnabled) {
@@ -63,7 +61,6 @@ class LocationService {
     required double latitude,
     required double longitude,
   }) async {
-    if (kIsWeb) return 'Jakarta';
     return geocodeCityName(latitude: latitude, longitude: longitude);
   }
 }
