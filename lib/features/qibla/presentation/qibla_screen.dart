@@ -34,23 +34,27 @@ class _QiblaScreenState extends ConsumerState<QiblaScreen> {
   }
 
   void _startCompass() {
-    final events = FlutterCompass.events;
-    if (events == null) {
-      // Perangkat tidak memiliki sensor kompas
-      setState(() => _hasRealSensor = false);
-      return;
-    }
-
-    _compassSub = events.listen((event) {
-      final h = event.heading;
-      if (h != null && !h.isNaN) {
-        // Hanya update state heading – TIDAK rebuild seluruh widget tree
-        setState(() {
-          _heading = (h + 360) % 360;
-          _hasRealSensor = true;
-        });
+    try {
+      final events = FlutterCompass.events;
+      if (events == null) {
+        // Perangkat tidak memiliki sensor kompas
+        setState(() => _hasRealSensor = false);
+        return;
       }
-    });
+
+      _compassSub = events.listen((event) {
+        final h = event.heading;
+        if (h != null && !h.isNaN) {
+          // Hanya update state heading – TIDAK rebuild seluruh widget tree
+          setState(() {
+            _heading = (h + 360) % 360;
+            _hasRealSensor = true;
+          });
+        }
+      });
+    } catch (_) {
+      setState(() => _hasRealSensor = false);
+    }
   }
 
   Future<void> _initLocation() async {
